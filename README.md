@@ -1,18 +1,1 @@
-📌 RAG Pipeline Project
-
-Built a basic RAG pipeline using PDF data.
-
-⚙️ Tech Stack
-SentenceTransformers
-ChromaDB
-LLM
-🔄 Flow
-Extract text from PDF
-Convert into embeddings using SentenceTransformers
-Store in ChromaDB
-Retrieve relevant chunks
-Generate response using LLM
-🧠 Learned
-RAG architecture
-Vector embeddings & search
-Context-based LLM responses
+Built a basic **RAG (Retrieval-Augmented Generation)** pipeline using PDF data, where text was extracted and converted into embeddings using SentenceTransformers. These embeddings were stored in ChromaDB for efficient similarity-based retrieval. On user query, relevant chunks were fetched and passed to an LLM to generate contextual responses. This project helped in understanding RAG architecture, vector embeddings, semantic search, and how retrieval improves LLM response accuracy.
